@@ -2,6 +2,18 @@
 main:
   - name: Home
     ref: "/"
+  - name: Brute-Force
+    ref: "/brute-force"
+  - name: Privilege-Escalation
+    ref: "/privilege-escalation"
+    sub:
+      - name: linux
+        ref: "/privilege-escalation/linux"
+        sub:
+          - name: LXD Privilege Escalation
+            ref: "/privilege-escalation/linux/lxd-privilege-escalation"
+  - name: Reverse Shell
+    ref: "/reverse-shell"
   - name: SQL Injection
     ref: "/sql-injection"
     sub:
