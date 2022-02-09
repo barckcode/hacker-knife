@@ -7,18 +7,18 @@
 /* Light mode theming */
 :root,
 :root[color-mode="light"] {
-  --header-background: #4ec58a;
+  --header-background: #8155BA;
   --header-font-color: #ffffff;
 
   --body-background: #ffffff;
-  --body-font-color: #343a40;
+  --body-font-color: #281C2D;
 
   --mark-color: #ffab00;
 
-  --button-background: #62cb97;
-  --button-border-color: #4ec58a;
+  --button-background: #695E93;
+  --button-border-color: #8155BA;
 
-  --link-color: #518169;
+  --link-color: #ffaa00;
   --link-color-visited: #c54e8a;
 
   --code-background: #f5f6f8;
@@ -29,30 +29,30 @@
   --code-copy-border-color: #adb4bc;
   --code-copy-success-color: #00c853;
 
-  --accent-color: #e9ecef;
-  --accent-color-lite: #f8f9fa;
+  --accent-color: #695E93;
+  --accent-color-lite: #695E93;
 
   --control-icons: #b2bac1;
 
-  --footer-background: #2f333e;
+  --footer-background: #695E93;
   --footer-font-color: #ffffff;
   --footer-link-color: #ffcc5c;
   --footer-link-color-visited: #ffcc5c;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --header-background: #4ec58a;
+    --header-background: #8155BA;
     --header-font-color: #ffffff;
 
     --body-background: #ffffff;
-    --body-font-color: #343a40;
+    --body-font-color: #281C2D;
 
-    --mark-color: #ffab00;
+    --mark-color: #ffaa00;
 
-    --button-background: #62cb97;
-    --button-border-color: #4ec58a;
+    --button-background: #695E93;
+    --button-border-color: #8155BA;
 
-    --link-color: #518169;
+    --link-color: #9c6800;
     --link-color-visited: #c54e8a;
 
     --code-background: #f5f6f8;
@@ -63,12 +63,12 @@
     --code-copy-border-color: #adb4bc;
     --code-copy-success-color: #00c853;
 
-    --accent-color: #e9ecef;
-    --accent-color-lite: #f8f9fa;
+    --accent-color: #695E93;
+    --accent-color-lite: #695E93;
 
     --control-icons: #b2bac1;
 
-    --footer-background: #2f333e;
+    --footer-background: #695E93;
     --footer-font-color: #ffffff;
     --footer-link-color: #ffcc5c;
     --footer-link-color-visited: #ffcc5c;
@@ -77,18 +77,18 @@
 
 /* Dark mode theming */
 :root[color-mode="dark"] {
-  --header-background: #4ec58a;
+  --header-background: #8155BA;
   --header-font-color: #ffffff;
 
-  --body-background: #343a40;
-  --body-font-color: #ced3d8;
+  --body-background: #281C2D;
+  --body-font-color: #BEAFC2;
 
   --mark-color: #ffab00;
 
-  --button-background: #62cb97;
-  --button-border-color: #4ec58a;
+  --button-background: #695E93;
+  --button-border-color: #8155BA;
 
-  --link-color: #7ac29e;
+  --link-color: #ffcc5c;
   --link-color-visited: #c27a9e;
 
   --code-background: #2f353a;
@@ -99,30 +99,30 @@
   --code-copy-border-color: #808c98;
   --code-copy-success-color: #00c853;
 
-  --accent-color: #2b3035;
-  --accent-color-lite: #2f353a;
+  --accent-color: #3e2a47;
+  --accent-color-lite: #3e2a47;
 
   --control-icons: #b2bac1;
 
-  --footer-background: #2f333e;
+  --footer-background: #695E93;
   --footer-font-color: #ffffff;
   --footer-link-color: #ffcc5c;
   --footer-link-color-visited: #ffcc5c;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-background: #4ec58a;
+    --header-background: #8155BA;
     --header-font-color: #ffffff;
 
-    --body-background: #343a40;
-    --body-font-color: #ced3d8;
+    --body-background: #281C2D;
+    --body-font-color: #BEAFC2;
 
     --mark-color: #ffab00;
 
-    --button-background: #62cb97;
-    --button-border-color: #4ec58a;
+    --button-background: #695E93;
+    --button-border-color: #8155BA;
 
-    --link-color: #7ac29e;
+    --link-color: #ffcc5c;
     --link-color-visited: #c27a9e;
 
     --code-background: #2f353a;
@@ -133,12 +133,12 @@
     --code-copy-border-color: #808c98;
     --code-copy-success-color: #00c853;
 
-    --accent-color: #2b3035;
-    --accent-color-lite: #2f353a;
+    --accent-color: #3e2a47;
+    --accent-color-lite: #3e2a47;
 
     --control-icons: #b2bac1;
 
-    --footer-background: #2f333e;
+    --footer-background: #695E93;
     --footer-font-color: #ffffff;
     --footer-link-color: #ffcc5c;
     --footer-link-color-visited: #ffcc5c;
