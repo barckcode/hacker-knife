@@ -4,18 +4,26 @@ main:
     ref: "/"
   - name: Brute-Force
     ref: "/brute-force"
+    sub:
+      - name: Tools
+        ref: "/brute-force/tools"
   - name: Privilege-Escalation
     ref: "/privilege-escalation"
     sub:
-      - name: linux
+      - name: Tools
+        ref: "/privilege-escalation/tools"
+      - name: Linux
         ref: "/privilege-escalation/linux"
         sub:
           - name: LXD Privilege Escalation
             ref: "/privilege-escalation/linux/lxd-privilege-escalation"
   - name: Reverse Shell
     ref: "/reverse-shell"
+    sub:
+      - name: Tools
+        ref: "/reverse-shell/tools"
   - name: SQL Injection
     ref: "/sql-injection"
     sub:
-      - name: tools
+      - name: Tools
         ref: "/sql-injection/tools"

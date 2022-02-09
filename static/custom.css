@@ -81,7 +81,7 @@
   --header-font-color: #ffffff;
 
   --body-background: #281C2D;
-  --body-font-color: #BEAFC2;
+  --body-font-color: #ffffff;
 
   --mark-color: #ffab00;
 
@@ -89,7 +89,7 @@
   --button-border-color: #8155BA;
 
   --link-color: #ffcc5c;
-  --link-color-visited: #c27a9e;
+  --link-color-visited: #ffcc5c;
 
   --code-background: #2f353a;
   --code-accent-color: #262b2f;
@@ -115,7 +115,7 @@
     --header-font-color: #ffffff;
 
     --body-background: #281C2D;
-    --body-font-color: #BEAFC2;
+    --body-font-color: #ffffff;
 
     --mark-color: #ffab00;
 
@@ -123,7 +123,7 @@
     --button-border-color: #8155BA;
 
     --link-color: #ffcc5c;
-    --link-color-visited: #c27a9e;
+    --link-color-visited: #ffcc5c;
 
     --code-background: #2f353a;
     --code-accent-color: #262b2f;
